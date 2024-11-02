@@ -1,2 +1,4 @@
 # Web-Development 
 This repository contains all my code from learning full-stack web development. It includes a variety of frontend and backend exercises, examples, and practice files created during my journey. This collection is structured to cover core concepts in web development, from basic HTML, CSS, and JavaScript for the frontend to backend development with Node.js, databases, and more. This repository serves as a comprehensive record of my learning progress.
+
+*Note - Since node_modules is often large and can be rebuilt, i have adding it to .gitignore to avoid committing dependencies. Since dependencies in node_modules can be recreated by running npm install, it’s common to ignore this folder in version control. Use npm install to recreate node_modules. Going forward, you  can use npm install to generate the node_modules folder locally.
