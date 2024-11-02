@@ -1,0 +1,26 @@
+*{
+    text-align: center;
+}
+
+#main{
+    margin: auto;
+    height:200px;
+    width:80px;
+    border: 2px solid black;
+}
+#inner{
+    height:50px;
+    width:50px;
+    border: 2px solid black;
+    margin:10px ;
+    border-radius: 50%;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
