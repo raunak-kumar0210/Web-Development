@@ -1,1 +1,2 @@
-# Web-Development
+# Web-Development 
+This repository contains all my code from learning full-stack web development. It includes a variety of frontend and backend exercises, examples, and practice files created during my journey. This collection is structured to cover core concepts in web development, from basic HTML, CSS, and JavaScript for the frontend to backend development with Node.js, databases, and more. This repository serves as a comprehensive record of my learning progress.
