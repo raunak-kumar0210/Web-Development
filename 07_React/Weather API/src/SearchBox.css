@@ -1,0 +1,10 @@
+.searchBox {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+form {
+    display: flex;
+    align-items: baseline;
+}

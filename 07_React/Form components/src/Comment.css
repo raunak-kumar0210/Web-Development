@@ -1,0 +1,75 @@
+.comment-section {
+    margin-bottom: 20px;
+}
+
+.comment-section h3 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.comment {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.comment span {
+    font-size: 1em;
+    color: #555;
+}
+
+.comment .rating {
+    color: #ff9800;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.comment p {
+    font-size: 1em;
+    color: #777;
+    margin-top: 5px;
+}
+
+.form {
+    text-align: left;
+}
+
+.form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+.form button {
+    background-color: grey;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.form button:hover {
+    background-color: #45a049;
+}
+
+.form h4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333; 
+    margin-bottom: 10px;
+}
