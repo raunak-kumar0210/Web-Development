@@ -1,0 +1,58 @@
+/* Container Styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+/* Title Styling */
+.form-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Form Styling */
+.add-form {
+    display: flex;
+    gap: 0.5rem;
+    max-width: 500px;
+    width: auto;
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Input Styling */
+.task-input {
+    /* flex: 1; */
+    background-color: whitesmoke;
+    color: #333;
+    padding: 0.5rem ;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+/* Button Styling */
+.add-button {
+    background-color: #4caf50;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.add-button:hover {
+    background-color: #45a049;
+}

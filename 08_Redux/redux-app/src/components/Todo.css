@@ -1,0 +1,85 @@
+/* Container Styling */
+.todo-container {
+    max-width:500px ;
+    height: auto;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+/* Header Styling */
+.todo-header {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+/* List Styling */
+.todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+.todo-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem ;
+    margin-bottom: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+.todo-item:hover {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Decoration for Completed Tasks */
+.todo-item.done {
+    text-decoration: line-through;
+    color: #888;
+}
+
+/* Buttons Styling */
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.delete-btn {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #e63939;
+}
+
+.done-btn {
+    background-color: #4caf50;
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.done-btn:hover {
+    background-color: #45a049;
+}
+
+/* Text Styling */
+.todo-text {
+    overflow-wrap: break-word;
+    overflow: hidden;
+    margin-right: 1rem;
+    font-size: 1rem;
+    color: #333;
+}
+
